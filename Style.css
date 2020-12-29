@@ -1,0 +1,248 @@
+body{  margin:0;
+    padding:0;
+    font-family:Helvetica;  
+    background: #eff0f5;
+    color:#424242;
+    min-width:500px; }
+
+ .header { align-items: lcenter !important;
+     justify-content:space-between;}
+ nav{ font-size:20px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #cacaca;
+    height: 100px;
+    text-align: center ;
+    position: fixed;
+    z-index: 99;}
+nav div ul { width: 100%;
+    padding-top:15px;
+    list-style: none;
+    flex-wrap: wrap;}
+nav div ul li {
+    display: inline-flex;}
+div#categories {
+   flex-grow: 1;}
+div#categories ul {
+    position: none;}
+.navbar {
+      align-items: center;} 
+div#categories ul li {
+    align-items: center;} 
+div#categories a {
+    padding-right: 10px;}
+div#nav {
+    margin-right: 15px;}
+div#nav ul li{
+    padding-right: 40px;}
+.navright {
+    text-align:center ;}
+footer{
+    top:145px;
+    position:relative;
+    bottom: 0;
+    height: 140px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid #cacaca;}
+footer ul{
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;}
+footer ul > li:first-child{
+    display: block;}
+footer ul > li{    
+    display: inline-block;}
+footer > div > div {
+    padding: 0px 85px;
+    display: flex;
+    width: 100%;}
+footer > div{
+    padding: 30px 85px;
+    display: flex;
+    width: 100%;}
+footer > div > p{
+    width: 100%;
+    text-align: center;}
+h1{
+    text-align: center;}
+h2 {
+    font-style: italic;
+    font-size: 1.5em;} 
+ul li{    
+    padding: 5px;
+    text-transform: capitalize;
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;}a{
+    color: #252f7b;}
+a:hover{
+    text-decoration: none;
+   color: #f95031;} 
+div.content{
+    position: relative;
+    padding-top: 130px;
+    flex-grow: 1;
+    width: 100%;}
+@media only screen and (max-width: 1485px) {
+    div#categories ul {
+        display: inline-flex;
+        padding: 0 5px;    }
+    div#categories ul li {
+        padding-top: 5px !important;
+        margin: 0 5px !important;   }
+ div#nav ul{
+        display: block; 
+        padding: 0 5px;   }
+    div#nav ul li{
+        padding-top: 5px !important;
+        margin: 0 5px !important;       
+        padding-right: 50px !important;   }}
+@media only screen and (max-width: 995px) { div#categories ul{
+        flex-wrap: wrap;
+        padding: 0 5px;  }
+    div#categories ul li{
+        padding: 0 !important;
+        margin: 0 5px !important;    }}
+div#cart > table > tbody > tr > td,
+div#cart > table > tbody > tr > th{
+    padding: 5px;
+    text-align: center;}
+@media only screen and (max-width: 780px) {
+    div#tblCart > table > thead > tr > td:nth-child(2),
+    div#tblCart > table > thead > tr > th:nth-child(2),
+    div#tblCart > table > tbody > tr > td:nth-child(2),
+    div#tblCart > table > tbody > tr > th:nth-child(2){
+        display: block;
+        overflow: hidden;
+        border-width: 0;
+        width: 0;
+        padding: 0;  }}
+@media only screen and (max-width: 700px) {
+    div#tblCart > table > thead > tr > td:nth-child(1),
+    div#tblCart > table > thead > tr > th:nth-child(1),
+    div#tblCart > table > tbody > tr > td:nth-child(1),
+    div#tblCart > table > tbody > tr > th:nth-child(1){
+        display: block;
+        overflow: hidden;
+        border-width: 0;
+        width: 0;
+        padding: 0; }}
+@media only screen and (max-width: 795px) {
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 280px;    }
+    div#nav ul {
+        padding-left: 30px;   }
+    div#nav ul li{
+        display: inline;    } div.content  {
+      padding-top: 315px;  }
+    div#categories ul {
+        justify-content: center;
+         }footer div {
+        padding: 30px 75px;
+        display: inline;
+        width: 100%;   }}
+@media only screen and (max-width: 440px) {}
+div#tblCart{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    background: #fff;}
+table{
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-collapse: collapse;}
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eff0f5;}
+table tbody tr:hover{
+    background-color: #ececec;}
+table td, table th {
+    border:none;
+    padding: .5rem;
+    vertical-align: top;
+    border-top: 1px solid #eff0f5;}
+tbody td{
+    border:none;
+    vertical-align: middle !important;}
+table a{
+    text-decoration: none;}
+div.body-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    background: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 40px;}
+
+div.body-content a p,
+div.body-content a b{
+    color: #424242;    }
+div.body-content a{    
+    text-decoration: none;
+    height: 330px;
+    width: 290px;
+    margin: 20px;
+    padding-top: 20px;}
+div.body-content a img{
+    height: 300px;
+    width: 300px;}
+
+div.body-content p{
+    margin: 0;}
+div.body-content b > p{
+    margin-top: 10px;}
+div.body-column{
+    flex-direction: column;}
+div.body-column img{
+    height: 250px;
+    width: 250px;
+    margin: auto;}
+div.body-column img{
+    height: 250px;
+    width: 250px;
+    margin: 15px auto;}
+div.body-column form{
+    width: 250px;
+    margin: 10px auto;}
+div.body-column form input{
+    width: 83px;}
+button.btn-save{
+    background-color: #28a745;
+    padding: .25rem 1.5rem;
+    border-radius: .2rem;
+    color:#ffffff;
+    border: 1px solid rgb(40 167 69 / .5);
+    cursor: pointer;}
+button.btn-add-to-cart{
+    background-color: #007bff;
+    padding: .25rem 1.5rem;
+    border-radius: .2rem;
+    color:#ffffff;
+    border: 1px solid rgb(40 167 69 / .5);
+    cursor: pointer;}
+input.table-input{
+    display: block;
+    width: 100%;
+    padding: .25rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;}
+.text-center{
+    text-align: center;}
+
